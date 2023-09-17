@@ -12,42 +12,42 @@ const Profile = () => {
 
   return (
     <>
-      <div class="container">
-        <div class="profile-box">
-          <img src={SettingsIcon} class="setting-icon" />
-          <img src={toChange1} class="profile-pic" />
+      <div className="container">
+        <div className="profile-box">
+          <img src={SettingsIcon} className="setting-icon" />
+          <img src={toChange1} className="profile-pic" />
           <h3>James Nicholson</h3>
           <p>Leukemia Patient</p>
-          <div class="address">
+          <div className="address">
             <h3>About</h3>
-            <p class="one">Date of Birth</p>
-            <p class="two">21 Sep 2001</p>
-            <p class="three">Home Address</p>
-            <p class="four">Bhubaneswar, Odisha</p>
-            <p class="five">Identificatory</p>
-            <p class="six">AD15-7987</p>
-            <p class="seven">Phone Number</p>
-            <p class="eight">+917768767389</p>
+            <p className="one">Date of Birth</p>
+            <p className="two">21 Sep 2001</p>
+            <p className="three">Home Address</p>
+            <p className="four">Bhubaneswar, Odisha</p>
+            <p className="five">Identificatory</p>
+            <p className="six">AD15-7987</p>
+            <p className="seven">Phone Number</p>
+            <p className="eight">+917768767389</p>
           </div>
-          {/* <div class="profile-box">
-          <img src={MenuIcon} class="menu-icon" />
-          <img src={SettingsIcon} class="setting-icon" />
-          <img src={toChange1} class="profile-pic" />
+          {/* <div className="profile-box">
+          <img src={MenuIcon} className="menu-icon" />
+          <img src={SettingsIcon} className="setting-icon" />
+          <img src={toChange1} className="profile-pic" />
           <h3>{userName}</h3>
           <p>{userDeasese}</p>
-          <div class="address">
+          <div className="address">
             <h3>About</h3>
-            <p class="one"></p>
-            <p class="two">{UserDOB}</p>
-            <p class="three">Home Address</p>
-            <p class="four">{userHomeAddress}</p>
-            <p class="five">Identificatory</p>
-            <p class="six">AD15-7987</p>
-            <p class="seven">Phone Number</p>
-            <p class="eight">{userContactNo}</p>
+            <p className="one"></p>
+            <p className="two">{UserDOB}</p>
+            <p className="three">Home Address</p>
+            <p className="four">{userHomeAddress}</p>
+            <p className="five">Identificatory</p>
+            <p className="six">AD15-7987</p>
+            <p className="seven">Phone Number</p>
+            <p className="eight">{userContactNo}</p>
           </div> */}
           <button type="button">Appointment</button>
-          <div class="profile-bottom"></div>
+          <div className="profile-bottom"></div>
         </div>
       </div>
     </>

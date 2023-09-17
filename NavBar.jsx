@@ -6,37 +6,37 @@ import "../Css/NavBar.css";
 const NavBar = () => {
   return (
     <div>
-      <aside class="sidebar">
-        <div class="logo">
+      <aside className="sidebar">
+        <div className="logo">
           <img src={logo} alt="logo" />
           <h2>HealthTrackr</h2>
         </div>
-        <ul class="links">
+        <ul className="links">
           <h4>Account</h4>
           <li>
-            <span class="material-symbols-outlined">person</span>
+            <span className="material-symbols-outlined">person</span>
             <Link to="/profile">Profile</Link>
           </li>
 
           <li>
-            <span class="material-symbols-outlined">settings</span>
+            <span className="material-symbols-outlined">settings</span>
             <Link to="/settings">Settings</Link>
           </li>
 
           <h4>Main Menu</h4>
 
           <li>
-            <span class="material-symbols-outlined">flag</span>
+            <span className="material-symbols-outlined">flag</span>
             <Link to="/prescription">Prescription</Link>
           </li>
 
           <li>
-            <span class="material-symbols-outlined">ambient_screen</span>
-            <Link to="/lab-reports">Lab Reports</Link>
+            <span className="material-symbols-outlined">ambient_screen</span>
+            <Link to="/LabReports">Lab Reports</Link>
           </li>
 
           <li>
-            <span class="material-symbols-outlined">dashboard</span>
+            <span className="material-symbols-outlined">dashboard</span>
             <Link to="/appoinments">Appointments</Link>
           </li>
 
@@ -44,26 +44,26 @@ const NavBar = () => {
           <h4>Advanced</h4>
 
           <li>
-            <span class="material-symbols-outlined">group</span>
+            <span className="material-symbols-outlined">group</span>
             <Link to="/people">People</Link>
           </li>
 
           <li>
-            <span class="material-symbols-outlined">mail</span>
-            <Link to="/message">Message</Link>
+            <span className="material-symbols-outlined">mail</span>
+            <Link to="/messagecomponent">Message</Link>
           </li>
 
           <li>
-            <span class="material-symbols-outlined">pacemaker</span>
+            <span className="material-symbols-outlined">pacemaker</span>
             <a href="/test">Test</a>
           </li>
           <li>
-            <span class="material-symbols-outlined">monitoring</span>
+            <span className="material-symbols-outlined">monitoring</span>
             <Link to="/analytic">Analytic</Link>
           </li>
           <hr />
-          <li class="logout-link">
-            <span class="material-symbols-outlined">logout</span>
+          <li className="logout-link">
+            <span className="material-symbols-outlined">logout</span>
             <Link to="/login">Logout</Link>
           </li>
         </ul>

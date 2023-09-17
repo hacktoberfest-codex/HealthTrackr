@@ -1,0 +1,69 @@
+/* Importing Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow: hidden; /* Hide scrollbars */
+  background-image: url("../assets/undraw_profile_pic_re_iwgo.svg");
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(78, 116, 157, 0.75),
+      rgba(59, 86, 117, 0.75)
+    ),
+    url(frontimg/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.logof {
+  position: relative;
+  left: 31%;
+  top: 70px;
+  border-radius: 20px;
+}
+.log {
+  position: relative;
+  left: 39%;
+  top: 170px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: medium;
+  margin: 0 10px;
+  width: 300px;
+  height: 50px;
+  padding: 10px 0;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+  transition: 0.4s;
+  color: rgb(104, 85, 224);
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(104, 85, 224, 1);
+}
+.log:hover {
+  color: white;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+  background-color: rgba(104, 85, 224, 1);
+}
+.heading {
+  position: relative;
+  top: 120px;
+  left: 474px;
+  color: rgb(6, 20, 31);
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+.heading2 {
+  position: relative;
+  top: 127px;
+  left: 474px;
+  color: aliceblue;
+}

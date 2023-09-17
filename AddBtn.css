@@ -1,0 +1,25 @@
+.btnAB {
+  
+  position: relative;
+  height: 400px;
+  width: 800px;
+  top: 80px;
+  left: 220px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.b2 {
+  padding: 50px;
+  font-size: 50px;
+  position: relative;
+  border: solid black 1px;
+  padding-right: 125px;
+  padding-left: 125px;
+  background-color:rgb(12, 40, 122);
+  border-radius: 8px;
+  
+}
+.c1{
+  color: aliceblue;
+  font-size: 50px;
+  text-decoration: none;
+}

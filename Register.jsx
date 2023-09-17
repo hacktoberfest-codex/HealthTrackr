@@ -7,7 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const Register = () => {
   const Response = () => {
-    toast.success("Registeraction Succesfull", {
+    toast.success("Registration Successful", {
       position: "top-center",
       autoClose: 5000,
       hideProgressBar: false,
@@ -33,7 +33,7 @@ const Register = () => {
   };
   return (
     <>
-      <div className="main-container">
+      <div className="main-container2">
         <div className="logo-img-container">
           <img className="logo-image" src={Login_logo} alt="logo" />
         </div>
@@ -44,12 +44,14 @@ const Register = () => {
             <input type="text" placeholder="Enter your Phone Number" />
             <input type="text" placeholder="Enter your Address" />
             <input type="text" placeholder="Enter your Gmail iD" />
-            <input type="text" placeholder="Enter your passward" required />
-            <input type="text" placeholder="Confirm your passward" required />
+            <input type="text" placeholder="Enter your Password" required />
+            <input type="text" placeholder="Confirm your Password" required />
           </div>
         </div>
         <div className="submit">
-          <button onClick={Response}>Register</button>
+          <button className="b4" onClick={Response}>
+            Register
+          </button>
           <ToastContainer />
         </div>
       </div>

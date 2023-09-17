@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+#hd {
+  color: rgb(14, 5, 111);
+  text-align: center;
+  padding-left: 10%;
+  font-family: "Poppins";
+  font-size: 50px;
+  
+}
+body{
+  background-image: url("../assets/hero-bg.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+   background-repeat:repeat-x;
+}
+
+.card-rapper {
+  max-width: 100%;
+  padding: 20px;
+  padding-left: 50%;
+  display: grid;
+  grid-template-columns: auto;
+
+  align-items: center;
+  grid-gap: 20px;
+  justify-content: space-evenly;
+  overflow: hidden;
+  
+    
+  
+  
+ 
+}
+@media (max-width: 969px) {
+  section {
+    padding: 20px 0px;
+  }
+  .App {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

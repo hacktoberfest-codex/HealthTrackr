@@ -1,12 +1,12 @@
 import React from "react";
-import "../Css/ForgetPassward.css";
+import "../Css/Login.css";
 import Login_logo from "../assets/logo-login.jpg";
-
+import { Link } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-const ForgetPassward = () => {
+const Login = () => {
   const Response = () => {
-    toast.success("Passward Change Succesfull", {
+    toast.success("Login Succesfull", {
       position: "top-center",
       autoClose: 5000,
       hideProgressBar: false,
@@ -32,19 +32,25 @@ const ForgetPassward = () => {
   };
   return (
     <>
-      <div className="main-container3">
+      <div className="main-container1">
         <div className="logo-img-container">
           <img className="logo-image" src={Login_logo} alt="logo" />
         </div>
         <div className="form">
           <div className="input-field">
-            <input type="text" placeholder="Enter Passward" />
-            <input type="text" placeholder="Confirm Your Passward" />
+            <input type="text" placeholder="Enter your Gmail iD" />
+            <input type="text" placeholder="Enter your password" />
+            <div className="related-links">
+              <Link to="/login/forgetpassward">Forget Password</Link>
+              <div className="register">
+                <Link to="/register">Register</Link>
+              </div>
+            </div>
           </div>
         </div>
         <div className="submit">
-          <button className="b6" onClick={Response}>
-            Change
+          <button className="b3" onClick={Response}>
+            Login
           </button>
           <ToastContainer />
         </div>
@@ -53,4 +59,4 @@ const ForgetPassward = () => {
   );
 };
 
-export default ForgetPassward;
+export default Login;

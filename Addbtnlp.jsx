@@ -3,12 +3,12 @@ import { BiSolidAddToQueue } from "react-icons/bi";
 import "../Css/AddBtn.css";
 import { Link } from "react-router-dom";
 
-const AddButton = () => {
+const Addbtnlp = () => {
   return (
     <div className="btnAB">
       <button className="b2">
         <BiSolidAddToQueue />
-        <Link className="c1" to="/AddPrescription">
+        <Link className="c1" to="/AddLabReports">
           Add+
         </Link>
       </button>
@@ -16,4 +16,4 @@ const AddButton = () => {
   );
 };
 
-export default AddButton;
+export default Addbtnlp;
