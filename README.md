@@ -1,5 +1,5 @@
 #Team 10
-**HealthTrackr** is a user-friendly web application designed to help you securely store and manage your medical documents, track your health progress, and stay on top of your healthcare routines. With HealthTrackr, you have easy access to your medical information from anywhere with an internet connection, making it an invaluable tool for emergencies and travel. It also facilitates doctor-patient collaboration, enabling better healthcare decisions and efficient treatment planning.
+#**HealthTrackr** is a user-friendly web application designed to help you securely store and manage your medical documents, track your health progress, and stay on top of your healthcare routines. With HealthTrackr, you have easy access to your medical information from anywhere with an internet connection, making it an invaluable tool for emergencies and travel. It also facilitates doctor-patient collaboration, enabling better healthcare decisions and efficient treatment planning.
 
 ## Key Features
 
